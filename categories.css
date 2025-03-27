@@ -10,8 +10,9 @@ html {
 header {
   display: flex;
   align-items: center;
-  margin-left: 80px;
+  padding-left: 80px;
   background-color: #fff;
+  box-shadow: 0px 0px 2px grey;
 }
 ul {
   display: flex;
@@ -29,15 +30,14 @@ li a {
 
 .sec-1 {
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f2f2f2;
   background-repeat: no-repeat;
 }
 
 .sec-1 div {
   width: 487px;
+  margin-left: 80px;
 }
 .sec-1 h1,
 p {
@@ -49,13 +49,17 @@ p {
 .sec-1 p {
   font-size: 18px;
 }
+.myImg {
+  background-color: #e6f0fb;
+  border-radius: 30px;
+}
 .sec-1 img {
   width: 493px;
-  height: 258px;
+  height: 388px;
 }
 .poly img {
-    width: 20px;
-    height: 15px;
+  width: 20px;
+  height: 15px;
 }
 .sec-1 button {
   padding: 15px;
@@ -67,31 +71,78 @@ p {
   background-color: blue;
   color: white;
   margin-right: 15px;
-
 }
-
+.smallPhones {
+  position: relative;
+  top: -100px;
+  margin-left: 80px;
+}
+.smallPhones img {
+  background-color: #f1eeee;
+  margin: 30px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+}
 .sec-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    line-height: 1.6;
-    font-family: "Times New Roman", Times, serif !important;
-  }
-  .sec-2 > div {
-    height: 320px;
-    margin: 10px;
-    padding: 15px 10px;
-    background-color: #f8f8f8;
-    border-radius: 10px;
-  }
-  .sec-2 img {
-    width: 250px;
-    height: 200px;
-    background-color: #e6f0fb;
-    border-radius: 10px;
-    padding: 10px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  line-height: 1.6;
+  font-family: "Times New Roman", Times, serif !important;
+  margin-bottom: 100px;
+}
+.sec-2 > div {
+  height: 320px;
+  margin: 10px;
+  padding: 15px 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+.sec-2 img {
+  width: 250px;
+  height: 200px;
+  background-color: #e6f0fb;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sec-3 {
+  width: 80%;
+  height: 400px;
+  background: #e6f0fa;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 8git 0px;
+}
+.sec-3 section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.sec-3 div {
+  display: flex;
+  padding: 50px;
+  width: 500px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.sec-3 div:hover {
+  border: 1px solid grey;
+}
+.sec-3 div p {
+  margin: 10px 0 0px 30px;
+}
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
 footer {
   background-color: blue;
 }
