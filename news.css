@@ -31,13 +31,13 @@
   .sec-1 {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 100vh;
     background-repeat: no-repeat;
   }
   
   .sec-1 div {
     width: 487px;
-    margin-left: 80px;
   }
   .sec-1 h1,
   p {
@@ -57,6 +57,13 @@
     width: 493px;
     height: 388px;
   }
+  .sec-1 div:first-child{
+    margin-left: -100px;
+  }
+  .sec-1 div:last-child {
+    margin-left: -300px;
+  }
+  
   .poly img {
     width: 20px;
     height: 15px;
