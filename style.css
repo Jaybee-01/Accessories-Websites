@@ -5,15 +5,14 @@
   font-family: "Montserrat Alternates", sans-serif;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 header {
   display: flex;
   align-items: center;
   padding-left: 80px;
   background-color: #fff;
-  box-shadow: 0px 0px 2px grey;
-
+  box-shadow: 10px 10px 2px rgb(228, 4, 4)y;
 }
 ul {
   display: flex;
@@ -57,13 +56,13 @@ p {
   height: 258px;
 }
 .sec-1 button {
-    padding: 15px;
-    width: 150px;
-    border: 2px solid blue;
+  padding: 15px;
+  width: 150px;
+  border: 2px solid blue;
 }
 .sec-1 button:last-child {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 
 .sec-2 {
@@ -98,12 +97,12 @@ p {
   transform: scale(1.1);
 }
 #lm {
-    text-decoration: none;
-    color: blue;
-    padding-right: 100px;
+  text-decoration: none;
+  color: blue;
+  padding-right: 100px;
 }
 #lm i {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .sec-2 h2 {
@@ -113,65 +112,65 @@ p {
   width: 400px;
 }
 #btp button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 10px;
-    margin-top: 550px;
-    margin-bottom: 40px;
-    background-color: #fff;
-    border: 1px solid white;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgb(130, 106, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  margin-top: 550px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(130, 106, 196);
 }
 #btp {
-    text-decoration: none;
+  text-decoration: none;
 }
 #btp img {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 footer {
-    background-color: blue;
+  background-color: blue;
 }
 footer li {
-    list-style: none;
-    margin: 10px 0;
+  list-style: none;
+  margin: 10px 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  color: white;
 }
 .footer h4 {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 5px;
-    font-weight: 400;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  font-weight: 400;
 }
 .footer section:last-child {
-    width: 320px;
+  width: 320px;
 }
 .footer input {
-    padding: 10px;
-    border: none;
-    color: blue;
+  padding: 10px;
+  border: none;
+  color: blue;
 }
 
 .brands {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
 }
 .brands p {
-    margin-left: -60px;
+  margin-left: -60px;
 }
 .brands i {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 .brands div:last-child {
-    margin-left: 400px;
+  margin-left: 400px;
 }
